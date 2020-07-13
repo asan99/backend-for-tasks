@@ -1,0 +1,13 @@
+guests = ["Will Smith", "Ben Aflick", "Anjelina Jolie"]
+print("Deear "  + (guests[0]),  "can you accept my invite for dinner")
+print("Deear "  + (guests[1]),  "can you accept my invite for dinner")
+print("Deear "  + (guests[2]),  "can you accept my invite for dinner")
+guests.pop(1)
+guests.insert(1, "Katrin")
+guests.insert(0, "Michael Jordan")
+guests.insert(2, "Steven Jobs")
+guests.append("Irina Sheykh")
+print("Deear "  + (guests[0]),  "can you accept my invite for dinner")
+print("Deear "  + (guests[1]),  "can you accept my invite for dinner")
+print("Deear "  + (guests[2]),  "can you accept my invite for dinner")
+print(guests) 
